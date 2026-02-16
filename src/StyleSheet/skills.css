@@ -1,0 +1,7 @@
+.car:hover {
+    box-shadow: 0 0 20px 1px cyan;
+    background-color: black;
+    color: white;
+    font-family: serif;
+    transform: translateY(-5px);
+}

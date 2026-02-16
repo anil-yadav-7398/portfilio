@@ -1,0 +1,24 @@
+.key {
+    display: flex;
+    color: white;
+    list-style: none;
+
+}
+
+.key li {
+    margin-left: 20px;
+}
+
+.key li a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+
+li a {
+    text-decoration: none;
+}
