@@ -6,13 +6,16 @@ const NavBar = () => {
     return (
         <>
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                <div class="container-fluid">
-                    <h1 class=" "> ANIL):-</h1>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                <div class="container-fluid" style={{ background: "#353434" }}>
+                    <h1 class=" text-white" style={{ fontFamily: "serif" }}>* ANIL YADAV *</h1>
+                    <button class="navbar-toggler " type="button"
+                        data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false"
+                        aria-label="Toggle navigation" style={{ background: "white", marginRight: "20px" }}>
+                        <span class="navbar-toggler-icon text-white" ></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav   me-auto mb-2 mb-lg-0">
+                    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                        <ul class="navbar-nav   me-auto mb-2 mb-lg-0 text-white" style={{ fontFamily: "serif", fontSize: "20px" }}>
 
                             <li class="nav-item">
                                 <Link to="/" >HOME</Link>

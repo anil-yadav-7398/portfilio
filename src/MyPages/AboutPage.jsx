@@ -10,7 +10,7 @@ const AboutPage = () => {
         <div className=' container fluid '>
           <div className='row' style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', minHeight: '80vh' }}>
             <div className='col col-md-6 col-lg-6' style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-              <img src={imgAnil} alt="Anil Yadav" style={{ width: '400px', height: '400px', borderRadius: '50%', margin: '20px', boxShadow: '0 4px 8px rgba(251, 248, 248, 0.9)' }} />
+              <img src={imgAnil} alt="Anil Yadav" style={{ width: '400px', height: '400px', borderRadius: '50%', margin: '20px', marginRight: '20px', boxShadow: '0 4px 8px rgba(251, 248, 248, 0.9)' }} />
             </div>
             <div className='col col-md-6 col-lg-6' style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
               <h1 style={{ color: 'white', fontFamily: "serif", fontStyle: "bold" }}><span style={{ color: 'skyblue' }}>LET'S INTRODUCE</span><br /> MY SELF</h1>

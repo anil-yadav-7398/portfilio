@@ -1,9 +1,10 @@
 import React from 'react'
 import Common from '../Componant/Common'
 import imgAnil from "../Img/anil.jpeg"
-import resume from "../pdf/AnilYadavResume.pdf"
+import resume from "../pdf/Anil.pdf"
 import { Link } from 'react-router-dom'
 import { useState, useEffect } from 'react'
+import Button from '@mui/material/Button'
 const HomePage = () => {
     const words = ["FULL STACK JAVA DEVELOPER", " FRONTEND DEVELOPER", "BACKEND DEVELOPER", "UI/UX DESIGNER"];
     const [text, setText] = useState("");
@@ -52,10 +53,10 @@ const HomePage = () => {
                 <div className=' container fluid '>
                     <div className='row' style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', minHeight: '80vh' }}>
                         <div className='col col-md-6 col-lg-6' style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                            <img src={imgAnil} alt="Anil Yadav" style={{ width: '400px', height: '400px', borderRadius: '50%', margin: '20px' }} />
+                            <img src={imgAnil} alt="Anil Yadav" style={{ width: '400px', height: '400px', borderRadius: '50%', marginRight: '30px' }} />
                         </div>
                         <div className='col col-md-6 col-lg-6' style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
-                            <h1 style={{ color: 'white', fontFamily: "serif", fontStyle: "bold" }}><span style={{ color: 'skyblue' }}>HELLO I'M</span><br /> ANIL YADAV</h1><h5 style={{ color: 'white', fontFamily: "serif" }}>{text}<spam>|</spam></h5>
+                            <h1 style={{ color: 'white', fontFamily: "serif", fontStyle: "bold" }}><span style={{ color: 'skyblue' }}>HELLO I'M</span><br /> ANIL YADAV</h1><h5 style={{ color: '#fc6908', fontFamily: "serif" }}>{text}<spam>|</spam></h5>
                             <p style={{ color: 'white' }}>I'm a full Stack Java Developer with a passion for creating beautiful and functional websites. I have experience in HTML, CSS, JavaScript, and React. I'm always looking for new challenges and opportunities to learn and grow as a developer.</p>
 
                         </div>
@@ -63,8 +64,11 @@ const HomePage = () => {
                 </div>
                 <div className='container' style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                     <div className='row '>
-                        <div className='col col-md-6 col-lg-6'> <Link to="/about" ><button className="btn btn-primary p-2" style={{ width: 150 }}> About me</button> </Link></div>
-                        <div className='col col-md-6 col-lg-6'><button className="btn btn-primary p-2 " style={{ width: 200 }} onClick={handleDownloadCV}> Download CV</button></div>
+
+                        <div className='d-flex flex-column flex-md-row justify-content-center gap-3'>
+                            <Link to="/about" >    <Button className="btn btn-primary p-2" style={{ width: 150, margin: 10, padding: 10 }}>About me </Button></Link>
+                            <Button className="btn btn-primary p-2" style={{ width: 150, margin: 10, padding: 20 }} onClick={handleDownloadCV}> Download CV </Button>
+                        </div>
                     </div>
                 </div>
 

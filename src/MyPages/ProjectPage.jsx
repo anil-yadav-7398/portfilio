@@ -15,7 +15,7 @@ const ProjectPage = () => {
             <h1 style={{ color: "#fe8809", fontFamily: "serif", fontSize: 30, margin: 20 }}>My Projects</h1>
             <Card style={{ width: "50%", margin: "0 auto", boxShadow: "0px 0px 10px 3px #fbffff", backgroundColor: "#000000" }}>
               <div className='card-body text-center'>
-                <img src={project} alt="anil" style={{ marginTop: "60%", height: 400, width: "95%", borderRadius: 10, margin: 10, boxShadow: "0 0 10px 3px rgba(250, 250, 250, 0.91)" }} />
+                <img src={project} alt="anil" style={{ marginTop: "60%", height: "100%", width: "100%", borderRadius: 10, margin: 10, boxShadow: "0 0 10px 3px rgba(250, 250, 250, 0.91)" }} />
                 <Button variant="contained" style={{
                   backgroundColor: "#05ffff", color: "white",
                   margin: 10
@@ -35,7 +35,7 @@ const ProjectPage = () => {
           <div className='col col-md-12 text-center'>
             <Card style={{ width: "50%", margin: "0 auto", boxShadow: "0px 0px 10px 3px #fbffff", backgroundColor: "#000000" }}>
               <div className='card-body text-center'>
-                <img src={portfilio} alt="anil" style={{ marginTop: "60%", height: 400, width: "95%", borderRadius: 10, margin: 10, boxShadow: "0 0 10px 3px rgba(250, 250, 250, 0.91)" }} />
+                <img src={portfilio} alt="anil" style={{ marginTop: "60%", height: "100%", width: "100%", borderRadius: 10, margin: 10, boxShadow: "0 0 10px 3px rgba(250, 250, 250, 0.91)" }} />
                 <Button variant="contained" style={{
                   backgroundColor: "#05ffff", color: "white",
                   margin: 10
@@ -56,7 +56,7 @@ const ProjectPage = () => {
           <div className='col col-md-12 text-center'>
             <Card style={{ width: "50%", margin: "0 auto", boxShadow: "0px 0px 10px 3px #fbffff", backgroundColor: "#000000" }}>
               <div className='card-body text-center'>
-                <img src={todo} alt="anil" style={{ marginTop: "60%", height: 400, width: "95%", borderRadius: 10, margin: 10, boxShadow: "0 0 10px 3px rgba(250, 250, 250, 0.91)" }} />
+                <img src={todo} alt="anil" style={{ marginTop: "60%", height: "100%", width: "100%", borderRadius: 10, margin: 10, boxShadow: "0 0 10px 3px rgba(250, 250, 250, 0.91)" }} />
                 <Button variant="contained" style={{
                   backgroundColor: "#05ffff", color: "white",
                   margin: 10
@@ -77,7 +77,7 @@ const ProjectPage = () => {
           <div className='col col-md-12 text-center'>
             <Card style={{ width: "50%", margin: "0 auto", boxShadow: "0px 0px 10px 3px #fbffff", backgroundColor: "#000000" }}>
               <div className='card-body text-center'>
-                <img src={ecome} alt="anil" style={{ marginTop: "60%", height: 400, width: "95%", borderRadius: 10, margin: 10, boxShadow: "0 0 10px 3px rgba(250, 250, 250, 0.91)" }} />
+                <img src={ecome} alt="anil" style={{ marginTop: "60%", height: "100%", width: "100%", borderRadius: 10, margin: 10, boxShadow: "0 0 10px 3px rgba(250, 250, 250, 0.91)" }} />
                 <Button variant="contained" style={{
                   backgroundColor: "#05ffff", color: "white",
                   margin: 10

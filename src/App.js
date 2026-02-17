@@ -1,6 +1,6 @@
 
 import './App.css';
-import { BrowserRouter, Route, Routes } from "react-router-dom"
+import { HashRouter, Route, Routes } from "react-router-dom"
 import HomePage from './MyPages/HomePage';
 import AboutPage from './MyPages/AboutPage';
 import ProjectPage from './MyPages/ProjectPage';
@@ -12,7 +12,7 @@ import SkillsPage from './MyPages/SkillsPage';
 function App() {
   return (<>
 
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />
@@ -21,7 +21,7 @@ function App() {
         <Route path="/education" element={<EducatonPage />} />
         <Route path="/skills" element={<SkillsPage />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
 
   </>
   );
