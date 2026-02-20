@@ -6,12 +6,12 @@ import { Link } from 'react-router-dom'
 import { useState, useEffect } from 'react'
 import Button from '@mui/material/Button'
 const HomePage = () => {
-    const words = ["FULL STACK JAVA DEVELOPER", " FRONTEND DEVELOPER", "BACKEND DEVELOPER", "UI/UX DESIGNER"];
     const [text, setText] = useState("");
     const [index, setIndex] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
 
     useEffect(() => {
+        const words = ["FULL STACK JAVA DEVELOPER", " FRONTEND DEVELOPER", "BACKEND DEVELOPER", "UI/UX DESIGNER"];
         const currentWord = words[index];
 
         const timer = setTimeout(() => {
