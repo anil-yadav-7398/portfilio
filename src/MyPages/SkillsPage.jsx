@@ -1,14 +1,13 @@
 import React from 'react'
+import Common from '../Componant/Common'
 import Card from '@mui/material/Card'
 import "../StyleSheet/skills.css"
 
 
 const SkillsPage = () => {
   return (
-    <>
 
-
-
+    <Common>
       <div className=' mt-5'>
         <h1 style={{ color: 'white', fontFamily: "serif", fontStyle: "bold", textAlign: 'center', marginTop: '50px' }}><span style={{ color: 'skyblue' }}>MY SKILLS</span></h1>
         <p style={{ color: 'white', textAlign: 'center' }}>I have a balence of <spam style={{ color: '#fd8309' }}> Technical</spam> and <spam style={{ color: '#fd8309' }}>Soft Skills</spam> that help me build efficient
@@ -120,15 +119,14 @@ const SkillsPage = () => {
                     <Card style={{ background: 'linear-gradient(to right, #00e1ff, #fe92bd)', color: 'black', padding: '10px', marginBottom: '10px', height: '100px', width: '100%', textAlign: "center", boxShadow: "0 0 10px 1px rgba(251, 246, 246, 0.91)" }}><h1><i class="fa-solid fa-briefcase"></i></h1> WORK ETHIC</Card>
                   </div>
 
-
                 </div>
               </div>
             </ul></div>
         </div>
       </div >
+    </Common >
 
 
-    </>
 
   )
 }

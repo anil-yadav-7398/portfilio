@@ -9,88 +9,84 @@ import ecome from '../Img/ecom.jpeg'
 const ProjectPage = () => {
   return (
     <Common>
-      <div className='container' style={{ margin: "40" }}>
-        <div className='row'>
-          <div className='col col-md-12 text-center'>
-            <h1 style={{ color: "#fe8809", fontFamily: "serif", fontSize: 30, margin: 20 }}>My Projects</h1>
-            <Card style={{ width: "50%", margin: "0 auto", boxShadow: "0px 0px 10px 3px #fbffff", backgroundColor: "#000000" }}>
-              <div className='card-body text-center'>
-                <img src={project} alt="anil" style={{ marginTop: "60%", height: "100%", width: "100%", borderRadius: 10, margin: 10, boxShadow: "0 0 10px 3px rgba(250, 250, 250, 0.91)" }} />
-                <Button variant="contained" style={{
-                  backgroundColor: "#05ffff", color: "white",
-                  margin: 10
-                }} onClick={() => window.open("#", "blanck")} >Live Demo</Button>
-                <Button variant="contained" style={{
-                  backgroundColor: "#05ffff", color: "white",
-                  margin: 10
-                }} onClick={() => window.open("https://github.com/anil-yadav-7398/atm-management", "_blank")}> Github Repository</Button>
-              </div>
+      <div className=' text-center' >
+        <h1 style={{ color: "#fe8809", fontFamily: "serif", fontSize: 30, margin: 20 }}>My Projects</h1>
+      </div>
+
+      <div className='container'>
+        <div className='row  '>
+          <div className='col-12  col-md-6  col-lg-6 mb-4 '>
+            <Card style={{ borderRadius: "15px", width: "100%", height: "100%", boxShadow: "0px 0px 10px 3px #fbffff", backgroundColor: "#000000" }}>
+
+              <img src={project} alt="anil" style={{ height: "400px", width: "100%" }} />
+              <Button variant="contained" style={{
+                backgroundColor: "#05ffff", color: "white",
+                margin: 10
+              }} onClick={() => window.open("#", "blanck")} >Live Demo</Button>
+              <Button variant="contained" style={{
+                backgroundColor: "#05ffff", color: "white",
+                margin: 10
+              }} onClick={() => window.open("https://github.com/anil-yadav-7398/atm-management", "_blank")}> Github Repository</Button>
+
             </Card>
           </div>
+
+          <div className='col-12  col-md-6  col-lg-6 mb-4 '>
+            <Card style={{ borderRadius: "15px", width: "100%", height: "100%", boxShadow: "0px 0px 10px 3px #fbffff", backgroundColor: "#000000" }}>
+
+              <img src={ecome} alt="anil" style={{ height: "400px", width: "100%" }} />
+              <Button variant="contained" style={{
+                backgroundColor: "#05ffff", color: "white",
+                margin: 10
+              }} onClick={() => window.open("#", "blanck")} >Live Demo</Button>
+              <Button variant="contained" style={{
+                backgroundColor: "#05ffff", color: "white",
+                margin: 10
+              }} onClick={() => window.open("https://github.com/anil-yadav-7398/ecommerce", "_blank")}> Github Repository</Button>
+
+            </Card>
+          </div>
+
+
+
+          <div className='col-12  col-md-6  col-lg-6 mb-4 '>
+            <Card style={{ borderRadius: "15px", width: "100%", height: "100%", boxShadow: "0px 0px 10px 3px #fbffff", backgroundColor: "#000000" }}>
+
+              <img src={todo} alt="anil" style={{ height: "400px", width: "100%" }} />
+              <Button variant="contained" style={{
+                backgroundColor: "#05ffff", color: "white",
+                margin: 10
+              }} onClick={() => window.open("#", "blanck")} >Live Demo</Button>
+              <Button variant="contained" style={{
+                backgroundColor: "#05ffff", color: "white",
+                margin: 10
+              }} onClick={() => window.open("https://github.com/anil-yadav-7398/todoApp", "_blank")}> Github Repository</Button>
+
+
+            </Card>
+          </div>
+
+
+          <div className='col-12  col-md-6  col-lg-6 mb-4 '>
+            <Card style={{ borderRadius: "15px", width: "100%", height: "100%", boxShadow: "0px 0px 10px 3px #fbffff", backgroundColor: "#000000" }}>
+
+              <img src={portfilio} alt="anil" style={{ height: "400px", width: "100%" }} />
+              <Button variant="contained" style={{
+                backgroundColor: "#05ffff", color: "white",
+                margin: 10
+              }} onClick={() => window.open("#", "blanck")} >Live Demo</Button>
+              <Button variant="contained" style={{
+                backgroundColor: "#05ffff", color: "white",
+                margin: 10
+              }} onClick={() => window.open("https://github.com/anil-yadav-7398/portfilio", "_blank")}> Github Repository</Button>
+
+            </Card>
+
+          </div>
+
         </div>
       </div>
 
-      <div className='container ' style={{ margin: "40px" }}>
-        <div className='row'>
-          <div className='col col-md-12 text-center'>
-            <Card style={{ width: "50%", margin: "0 auto", boxShadow: "0px 0px 10px 3px #fbffff", backgroundColor: "#000000" }}>
-              <div className='card-body text-center'>
-                <img src={portfilio} alt="anil" style={{ marginTop: "60%", height: "100%", width: "100%", borderRadius: 10, margin: 10, boxShadow: "0 0 10px 3px rgba(250, 250, 250, 0.91)" }} />
-                <Button variant="contained" style={{
-                  backgroundColor: "#05ffff", color: "white",
-                  margin: 10
-                }} onClick={() => window.open("#", "blanck")} >Live Demo</Button>
-                <Button variant="contained" style={{
-                  backgroundColor: "#05ffff", color: "white",
-                  margin: 10
-                }} onClick={() => window.open("https://github.com/anil-yadav-7398/portfilio", "_blank")}> Github Repository</Button>
-              </div>
-            </Card>
-          </div>
-        </div>
-      </div>
-
-
-      <div className='container ' style={{ margin: "40px" }}>
-        <div className='row'>
-          <div className='col col-md-12 text-center'>
-            <Card style={{ width: "50%", margin: "0 auto", boxShadow: "0px 0px 10px 3px #fbffff", backgroundColor: "#000000" }}>
-              <div className='card-body text-center'>
-                <img src={todo} alt="anil" style={{ marginTop: "60%", height: "100%", width: "100%", borderRadius: 10, margin: 10, boxShadow: "0 0 10px 3px rgba(250, 250, 250, 0.91)" }} />
-                <Button variant="contained" style={{
-                  backgroundColor: "#05ffff", color: "white",
-                  margin: 10
-                }} onClick={() => window.open("#", "blanck")} >Live Demo</Button>
-                <Button variant="contained" style={{
-                  backgroundColor: "#05ffff", color: "white",
-                  margin: 10
-                }} onClick={() => window.open("https://github.com/anil-yadav-7398/todoApp", "_blank")}> Github Repository</Button>
-              </div>
-            </Card>
-          </div>
-        </div>
-      </div>
-
-
-      <div className='container ' style={{ margin: "40px" }}>
-        <div className='row'>
-          <div className='col col-md-12 text-center'>
-            <Card style={{ width: "50%", margin: "0 auto", boxShadow: "0px 0px 10px 3px #fbffff", backgroundColor: "#000000" }}>
-              <div className='card-body text-center'>
-                <img src={ecome} alt="anil" style={{ marginTop: "60%", height: "100%", width: "100%", borderRadius: 10, margin: 10, boxShadow: "0 0 10px 3px rgba(250, 250, 250, 0.91)" }} />
-                <Button variant="contained" style={{
-                  backgroundColor: "#05ffff", color: "white",
-                  margin: 10
-                }} onClick={() => window.open("#", "blanck")} >Live Demo</Button>
-                <Button variant="contained" style={{
-                  backgroundColor: "#05ffff", color: "white",
-                  margin: 10
-                }} onClick={() => window.open("https://github.com/anil-yadav-7398/ecommerce", "_blank")}> Github Repository</Button>
-              </div>
-            </Card>
-          </div>
-        </div>
-      </div>
 
     </Common>
   )
