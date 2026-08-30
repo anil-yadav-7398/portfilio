@@ -1,7 +1,7 @@
 import React from 'react'
 import Common from '../Componant/Common'
 import imgAnil from "../Img/anil.jpeg"
-import resume from "../pdf/Anil.pdf"
+import resume from "../pdf/ANIL YADAV.pdf"
 import { Link } from 'react-router-dom'
 import { useState, useEffect } from 'react'
 import Button from '@mui/material/Button'
@@ -67,7 +67,7 @@ const HomePage = () => {
 
                         <div className='d-flex flex-column flex-md-row justify-content-center gap-3'>
                             <Link to="/about" >    <Button className="btn btn-primary p-2" style={{ width: 150, margin: 10, padding: 10 }}>About me </Button></Link>
-                            <Button className="btn btn-primary p-2" style={{ width: 150, margin: 10, padding: 20 }} onClick={handleDownloadCV}> Download CV </Button>
+                            <Button className="btn btn-primary p-2" style={{ width: 150, margin: 10, padding: 20 }} onClick={handleDownloadCV}> Download Resume </Button>
                         </div>
                     </div>
                 </div>

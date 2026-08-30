@@ -12,14 +12,13 @@ const SkillsPage = () => {
         <h1 style={{ color: 'white', fontFamily: "serif", fontStyle: "bold", textAlign: 'center', marginTop: '50px' }}><span style={{ color: 'skyblue' }}>MY SKILLS</span></h1>
         <p style={{ color: 'white', textAlign: 'center' }}>I have a balence of <spam style={{ color: '#fd8309' }}> Technical</spam> and <spam style={{ color: '#fd8309' }}>Soft Skills</spam> that help me build efficient
           scalable applications while  working effectively in team environments.
-          .</p>
-      </div>
-      <div className='container mt-5' style={{
+          .</p></div>
+      <div className='container fluid mt-5' style={{
         display: 'flex', gap: '10px',
         alignItems: 'center', justifyContent: 'center'
       }}>
         <div className='row'>
-          <div className='col col-md-6 col-lg-6  ' style={{
+          <div className="col col-md-6 col-lg-6 m-0 p-0" style={{
             display: 'flex', flexDirection: 'column', borderRadius: '15px', alignItems: 'center',
             justifyContent: 'center', height: "100%", boxShadow: "0 4px 8px rgba(251, 246, 246, 0.91)"
           }}>
@@ -81,7 +80,7 @@ const SkillsPage = () => {
             </ul>
           </div>
 
-          <div className='col col-md-6 col-lg-6' style={{ display: 'flex', gap: '10px', borderRadius: '15px', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', height: "100%", boxShadow: "0 4px 8px rgba(251, 246, 246, 0.91)" }}>
+          <div className="col col-md-6 col-lg-6 m-0 p-0" style={{ display: 'flex', gap: '10px', borderRadius: '15px', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', height: "100%", boxShadow: "0 4px 8px rgba(251, 246, 246, 0.91)" }}>
             <h2 style={{ color: '#fd8309', fontFamily: "serif", fontStyle: "bold", textAlign: "center", margin: "10px" }}>Soft Skills</h2>
             <ul style={{ color: 'white', listStyleType: 'none' }}>
 
@@ -121,7 +120,8 @@ const SkillsPage = () => {
 
                 </div>
               </div>
-            </ul></div>
+            </ul>
+          </div>
         </div>
       </div >
     </Common >
